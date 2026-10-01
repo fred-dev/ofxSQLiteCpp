@@ -192,3 +192,41 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+# openFrameworks: commit src/, bin/data/ and addons.make only.
+# Regenerate IDE projects with projectGenerator.
+*.xcodeproj/
+*.xcworkspace/
+*.vcxproj.user
+*.cbp
+xcuserdata/
+.vscode/
+*/Makefile
+*/config.make
+*/Project.xcconfig
+*/openFrameworks-Info.plist
+*/of.entitlements
+*/icon.rc
+
+# Build output (bin/data is kept)
+*/bin/*
+!*/bin/data/
+obj/
+*.o
+*.app/
+*.exp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*-env/
+*.egg-info/
+.ipynb_checkpoints/
+.env
+
+# OS / editor
+._*
+*.swp
+.idea/

@@ -1,6 +1,9 @@
 ofxSQLiteCpp
 ============
 
+> **About this fork:** fork of [bakercp/ofxSQLiteCpp](https://github.com/bakercp/ofxSQLiteCpp). This branch matches upstream. The `poco_headers_only` branch builds against [ofxPocoHeaders](https://github.com/fred-dev/ofxPocoHeaders) instead of the old ofxPoco addon.
+
+
 ## Description
 
 A very thin wrapper (hardly even a wrapper) around the amazing [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp) project.
